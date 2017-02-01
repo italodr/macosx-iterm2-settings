@@ -40,4 +40,11 @@ else
   exit 5
 fi
 
+if brew ls --versions zsh-syntax-highlighting > /dev/null; then
+  log "Package zsh-syntax-highlighting is already installed\n"
+else
+  brew install zsh-syntax-highlighting
+  log "Package zsh-syntax-highlighting installed\n"
+fi
+
 exit $?

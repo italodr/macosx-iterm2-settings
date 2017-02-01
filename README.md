@@ -29,7 +29,4 @@ Install other configurations:
 
 ```sh
 npm install --global pure-prompt
-brew install zsh-syntax-highlighting
 ```
-
-And download [Snazzy theme](https://github.com/sindresorhus/iterm2-snazzy#install)
